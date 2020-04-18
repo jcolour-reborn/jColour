@@ -11,37 +11,6 @@
   <li>give you a random, chosen or the most suiting hex colour</li>
 </ul>
 
-<% if (registry) { %>
-								<h1 class="title is-3">Available commands:</h1>
-								<div class="tg-wrap">
-									<table class="tg">
-										<tr>
-											<th class="tg-us36">Command</th>
-											<th class="tg-us36">Argument</th>
-											<th class="tg-us36">Description</th>
-											<th class="tg-us36">Group</th>
-										</tr>
-										<% registry.forEach(function(command) { %>
-											<tr>
-												<td class="tg-us36">
-													<%= command.name %>
-												</td>
-												<td class="tg-us36">
-													<%= command.format %>
-														<br>
-												</td>
-												<td class="tg-us36">
-													<%= command.desc %>
-														<br>
-												</td>
-												<td class="tg-us36">
-													<%= command.group %>
-												</td>
-											</tr>
-											<% }) %>
-									</table>
-								</div>
-								<% } %>
 
 <% if (!auth) { %>
   <h2 class="subtitle">Please log in from the side menu!</h2>
