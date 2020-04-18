@@ -4,7 +4,7 @@ Website + discord.js interface for the jColour bot
 
 ## Invite me!
 
-https://jcolour.jaqreven.com/invite
+https://jcolour.honkmaster.ninja/invite
 
 ## Installing
 
